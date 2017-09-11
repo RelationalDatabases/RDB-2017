@@ -9,14 +9,14 @@
 
      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
 
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
      
@@ -40,6 +40,13 @@ figcaption
   align-items: center;
 }
 
+.ui.segment.pushable
+{
+  margin: 0;
+  padding: 1rem 0;
+  overflow: visible;
+}
+
 
 
      </style>
@@ -50,6 +57,7 @@ figcaption
     
 
 
+  
 
 
 
@@ -76,13 +84,12 @@ figcaption
 
     
 
-
-
 <div class="two wide column sitemap">
   <div class="popup" data-content="To the top level Topics for this Module...">
-    <a href="../index.html"> <i class="huge home icon"></i> Module </a>
+    <a href="../index.html"> <i class="huge home icon"></i> <br> Module Home </a>
   </div>
 </div>
+
 
     
 <div class="four wide column">
@@ -116,12 +123,9 @@ figcaption
 
 
 
-<script>
-  ((window.gitter = {}).chat = {}).options = {
-    room: ''
-  };
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
+
 
 
 
@@ -135,6 +139,10 @@ figcaption
       </a>
     </div>
     <div class="menu">
+      
+      <a class="item" href="talk-0/Module.pdf">
+        Module Description
+      </a>
       
       <a class="item" href="talk-1/database_design.pdf">
         Database Design
@@ -152,33 +160,67 @@ figcaption
         Lab-01
       </a>
       
-      <a class="item" href="book-b/index.html">
-        Lab-01
-      </a>
-      
     </div>
   </div>
-
   <div class="pusher">
-    <div class="ui container">
-      <div class="ui basic segment">
-          
-        <div class="ui four doubling stackable cards">
-          
-          
+    <div class="ui basic container segment">
+      
+
+
+
+
+
+
+      
+
+
+
+
+
+<section class="ui attached segment">
+  <div class="ui centered four doubling stackable cards">
+    
+      
+        
 <div class="ui raised link card">
-  <div class="content">
-    <div class="right floated meta"><i class="film large icon"></i></div>
+  <div class="center aligned content">
+    <div class="right floated meta"><i class="huge object group large icon"></i></div>
+    <div class="header"> Module Description</div>
+  </div>
+    
+    <a href="talk-0/Module.pdf">
+      
+      <div class="image">
+        <img class="ui bordered rounded image" src="talk-0/Module.png">
+      </div>
+    </a>
+    <div class="center aligned content">
+      <div class="description">
+        <p>Outline of learning outcomes, continuous assessment and expecations</p>
+
+      </div>
+    </div>
+  
+  
+</div>
+
+      
+    
+      
+        
+<div class="ui raised link card">
+  <div class="center aligned content">
+    <div class="right floated meta"><i class="huge object group large icon"></i></div>
     <div class="header"> Database Design</div>
   </div>
     
-    <a href="talk-1/database_design.pdf" target="_blank">
-    
+    <a href="talk-1/database_design.pdf">
+      
       <div class="image">
         <img class="ui bordered rounded image" src="talk-1/database_design.png">
       </div>
     </a>
-    <div class="content">
+    <div class="center aligned content">
       <div class="description">
         <p>Data surrounds us, we generate it in our daily lives, businesses generate in their transactions, we consume it online, in stores, using our &quot;swipe cards&quot;. How it is stored is essential for the safe, consistent, accurate and timely use of the data. Database design is an important task in any data project.</p>
 
@@ -188,21 +230,23 @@ figcaption
   
 </div>
 
-          
-          
+      
+    
+      
+        
 <div class="ui raised link card">
-  <div class="content">
-    <div class="right floated meta"><i class="film large icon"></i></div>
+  <div class="center aligned content">
+    <div class="right floated meta"><i class="huge object group large icon"></i></div>
     <div class="header"> Database Design</div>
   </div>
     
-    <a href="talk-2/database_design2.pdf" target="_blank">
-    
+    <a href="talk-2/database_design2.pdf">
+      
       <div class="image">
         <img class="ui bordered rounded image" src="talk-2/database_design2.png">
       </div>
     </a>
-    <div class="content">
+    <div class="center aligned content">
       <div class="description">
         <p>Knowing how to organise and classify data makes it possible to draw useful conclusions about seemingly random facts.</p>
 
@@ -212,21 +256,23 @@ figcaption
   
 </div>
 
-          
-          
+      
+    
+      
+        
 <div class="ui raised link card">
-  <div class="content">
-    <div class="right floated meta"><i class="film large icon"></i></div>
+  <div class="center aligned content">
+    <div class="right floated meta"><i class="huge object group large icon"></i></div>
     <div class="header"> ER Modelling</div>
   </div>
     
-    <a href="talk-3/er_modelling.pdf" target="_blank">
-    
+    <a href="talk-3/er_modelling.pdf">
+      
       <div class="image">
         <img class="ui bordered rounded image" src="talk-3/er_modelling.png">
       </div>
     </a>
-    <div class="content">
+    <div class="center aligned content">
       <div class="description">
         <p>The Entity Relationship Diagram (ERD) is a tool for discussion when designing a system.</p>
 
@@ -236,11 +282,27 @@ figcaption
   
 </div>
 
-          
-          
+      
+    
+  </div>
+</section>
+
+
+
+      
+
+
+
+
+
+<section class="ui attached segment">
+  <div class="ui centered four doubling stackable cards">
+    
+      
+        
 <div class="ui raised link card">
-  <div class="content">
-    <div class="right floated meta"><i class="lab large icon"></i></div>
+  <div class="center aligned content">
+    <div class="right floated meta"><i class="huge lab large icon"></i></div>
     <div class="header"> Lab-01</div>
   </div>
     
@@ -250,7 +312,7 @@ figcaption
         <img class="ui bordered rounded image" src="book/img/main.png">
       </div>
     </a>
-    <div class="content">
+    <div class="center aligned content">
       <div class="description">
         <p>This lab will firstly introduce you to the learning environment provided by Oracle Academy.  It will show you how to setup an Oracle Academy account and login to ilearning to access the module materials.</p>
 
@@ -260,36 +322,25 @@ figcaption
   
 </div>
 
-          
-          
-<div class="ui raised link card">
-  <div class="content">
-    <div class="right floated meta"><i class="lab large icon"></i></div>
-    <div class="header"> Lab-01</div>
-  </div>
-    
-    <a href="book-b/index.html">
       
-      <div class="image">
-        <img class="ui bordered rounded image" src="book-b/img/main.png">
-      </div>
-    </a>
-    <div class="content">
-      <div class="description">
-        <ul>
-<li>Review basic database concepts</li>
-</ul>
+    
+  </div>
+</section>
 
-      </div>
-    </div>
-  
-  
-</div>
 
-          
 
-        </div>
-      </div>
+      
+
+
+
+
+
+      
+
+
+
+
+
     </div>
   </div>
 </div>
@@ -301,6 +352,7 @@ figcaption
     <script>
       $(document).ready(function () {
   $('img').addClass('ui image');
+
   $('.ui.embed').embed();
 
   const $images = $('.lab img');
@@ -313,8 +365,6 @@ figcaption
       $(divLabel).insertBefore($images[i]);
     }
   });
-
-  $('.ui.embed').embed();
 
   $('.ui.menu .item')
       .tab({
