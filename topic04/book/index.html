@@ -225,8 +225,6 @@ j. Each person must be of one and only one blood type. Each blood type may class
 <li>c. Each STUDENT may join one or more CLUBs </li>
 <li>d. Each CLUB may be composed of one or more STUDENTs </li>
 </ul>
-<h2>Resolving many to many relationships</h2>
-<p>Resolve the M:M between TEACHER and CLASS as well as INTERPRETER and LANGUAGE.<br>For each intersection entity, think of additional attributes like a UID. </p>
 <p><img src="./img/01.png" alt=""></p>
 <h1>Health Insurance Company</h1>
 <p>Continue to work on the business description from lab03 in the Exercises step. You should have a first draft ER diagram which contains the entities you have identified.</p>
@@ -246,9 +244,9 @@ diagnosis</li>
 current blood pressure, height and weight and if any condition is discovered a
 diagnosis will be noted.</li>
 </ol>
-<p>Modify the ERD using a supertype/subtype structure within the Office Visit entity.</p>
+<p>Modify the ERD using a supertype/subtype structure within the Visit entity.</p>
 <p>Next you need to identify the relationships that exist between these entities.</p>
-<p>Make sure you have the following relationship identified and drawn on your diagram:</p>
+<p>Make sure you have the following relationships identified and drawn on your diagram:</p>
 <ul>
 <li>Each PATIENT must have one and only one DOCTOR (their primary
 doctor)</li>
@@ -259,10 +257,10 @@ doctor)</li>
 <li>Each HOSPITAL AFFILIATION must be for one and only one HOSPITAL.</li>
 <li>Each PATIENT may be given one or more PRESCRIPTION.</li>
 <li>Each PRESCRIPTION must be for one and only one PATIENT.</li>
-<li>Each PATIENT may have one or more OFFICE VISIT.</li>
-<li>Each OFFICE VISIT must be for one and only one PATIENT.</li>
-<li>Each DOCTOR may preside over one or more OFFICE VISIT.</li>
-<li>Each OFFICE VISIT must be presided over by one and only one DOCTOR.</li>
+<li>Each PATIENT may have one or more VISIT.</li>
+<li>Each VISIT must be for one and only one PATIENT.</li>
+<li>Each DOCTOR may preside over one or more  VISIT.</li>
+<li>Each VISIT must be presided over by one and only one DOCTOR.</li>
 <li>Each DOCTOR may prescribe one or more PRESCRIPTION.</li>
 <li>Each PRESCRIPTION must be prescribed by one and only one DOCTOR.</li>
 </ul>
@@ -270,11 +268,6 @@ doctor)</li>
 to illustrate this point on the ERD. For example once a prescription is written
 for a patient it cannot be transferred to another patient. </p>
 <p>The possible relationship types are : 1-to-1, 1-to-many and many-to-many.</p>
-<p>Any many-to-many relationships will need to be resolved. For example each
-doctor may be affiliated with many hospitals and each hospital may have
-many doctors affiliated with it. We need to make sure the many-to-many
-relationships are resolved.</p>
-<p>Modify your diagram to include the relationships and resolve any many to many relationships.</p>
 
       </div>
      
