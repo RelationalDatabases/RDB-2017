@@ -1,0 +1,69 @@
+diff a/topic04/talk-2/CRUD.pdf b/topic04/talk-2/CRUD.pdf	(rejected hunks)
+@@ -1,31 +0,34 @@
+-Release Date: August, 2015
+-Updates:
+-CRUD analysis ties data modeling to business functions. Although functional modeling is not covered in this
+-course, the business functions and processes that the client describes will operate on the data. CRUD
+-analysis checks that all the appropriate operations are possible. This is a good tool to check for
+-completeness and proper scope of the data model.
+-3
+-Consultant: One who gives expert or professional advice.
+-                                                                                                                     4
+-Functions: Used to perform calculations on data, modify individual data items, manipulate output for
+-groups of rows, format dates and numbers for display, convert column data types, etc.
+-
+-                                                                                                                     5
+-“Whenever we get a new customer, we take down basic information (name, address, email) and assign an
+-ID.” (CREATE)
+-
+-                                                                                                                     6
+-“We’d like to print out a list of the customers whose account is in arrears.” (RETRIEVE)
+-                                                                                                                     7
+-“When a customer pays their account, we alter their record by modifying the outstanding balance”
+-(UPDATE)
+-
+-                                                                                                                     8
+-“A number of our customers were small businesses that were hit hard by the recession. They went out of
+-business. We deleted them from our current records.” (DELETE)
+-
+-                                                                                                                     9
+-10
+-11
+-12
+-
+\ No newline at end of file
++RELATIONAL DATABASES
++
++                      CRUD ANALYSIS
++                          OBJECTIVES
++
++• CREATE AN ER MODELS THAT REFLECT ALL BUSINESS RULES
++• IDENTIFY THE CREATE, RETRIEVE, UPDATE AND DELETE (CRUD) REQUIREMENTS OF THE BUSINESS
++• VALIDATE THE ER MODEL USING CRUD ANALYSIS
++                           PURPOSE
++
++• FROM THE BUSINESS SCENARIOS AND BUSINESS RULES YOU BUILD THE ERD
++• THE ERD IS A TOOL FOR DISCUSSIONS WITH THE CLIENT TO ENSURE IT REPRESENTS THE
++
++  BUSINESS NEEDS
++• IT IS ALSO THE BLUEPRINT FOR THE DBA TO BUILD THE DATABASE
++• CRUD ANALYSIS HELPS TO CHECK THAT YOU HAVEN’T MISSED ANY ENTITIES OR
++
++  RELATIONSHIPS AND TO MAKE SURE YOU HAVEN’T ADDED ANYTHING UNNECESSARY
++                       CRUD ANALYSIS
++
++• CREATE, RETRIEVE, UPDATE, DELETE
++• FOUR BASIC FUNCTIONS/OPERATIONS THAT A DATABASE ALLOWS
++• IMPORTANT TO CHECK THAT ALL OF THESE FUNCTIONS ARE POSSIBLE ON ALL ASPECTS OF THE
++
++  BUSINESS SCENARIO AND REPRESENTED ON THE ERD
++                       CRUD ANALYSIS
++
++• CREATE: INPUT, ENTER, LOAD, IMPORT, RECORD, CREATE
++• RETRIEVE: VIEW, REPORT, BRING UP, PRINT, FIND, READ, LOOK UP
++• UPDATE: CHANGE, MODIFY, ALTER, UPDATE
++• DELETE: DISCARD, REMOVE, TRASH, PURGE, DELETE
++
++• ALL KEYWORDS TO LOOK AND LISTEN FOR IN CLIENT INTERVIEWS.
++
+\ No newline at end of file
